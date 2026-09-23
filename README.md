@@ -152,4 +152,53 @@ This project is more than just a rate limiter. I'm using it to understand some i
 * Scalable backend architecture
 * Monitoring and observability
 
-I'm also using the projec
+I'm also using the project as a foundation for experimenting with different rate-limiting strategies.
+
+## 🔨 What's Next
+
+Some of the things I plan to explore as Sentinel grows:
+
+* Different rate-limiting algorithms
+* IP-based rate limiting
+* User-based rate limiting
+* API-key based limits
+* Redis integration
+* Distributed rate limiting
+* Better logging and monitoring
+* Metrics and dashboards
+* Configuration through an API
+* A simple web dashboard
+
+The goal is to gradually turn Sentinel into something that can be used as a standalone rate-limiting service.
+
+## 🔐 Security
+
+Sentinel is intended to be one layer of API protection.
+
+Rate limiting alone isn't enough for a secure application, so it should normally be combined with things like authentication, authorization, input validation, logging, and monitoring.
+
+Also, never commit API keys, passwords, or other secrets to the repository.
+
+## 🚧 Project Status
+
+This project is **still under development**.
+
+I'm building it step by step and using each stage to learn more about API infrastructure, backend systems, and scalable architectures.
+
+Things may change as the project evolves.
+
+## 🤝 Contributions
+
+If you have an idea, find a bug, or want to experiment with the project, feel free to open an issue or submit a pull request.
+
+## 👨‍💻 Author
+
+**Bharadwaj Josyula**
+
+GitHub: **[@BharadwajJosyula](https://github.com/BharadwajJosyula)**
+
+---
+
+⭐ If you find the project interesting, feel free to star the repository.
+
+**Sentinel — keeping API traffic under control.**
